@@ -15,7 +15,7 @@ function [yn, yorigin] = convolution(xn, xorigin, hn, horigin)
     subplot(3, 1, 1);
     plot2d3(nx, xn, 5); e = gce(); e.children.thickness = 2;
     plot(nx, xn, 'ro'); e = gce(); e.children.thickness = 2;
-    xtitle("Input signal x(n)", "n", "x1(n)");
+    xtitle("Input signal x(n)", "n", "x(n)");
     xgrid(1);
     
     subplot(3, 1, 2);
